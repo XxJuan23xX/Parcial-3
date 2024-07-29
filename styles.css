@@ -1,0 +1,102 @@
+body {
+    font-family: 'Math', serif;
+    background-image: url('wolverine.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+#app {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(252, 0, 0, 0.2); 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    background-color: #ffff00;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #808000;
+}
+
+div, ul {
+    margin: 20px 0;
+}
+
+div#resultado1 div,
+div#resultado2 div,
+div#resultado3 div,
+div#resultado5 div {
+    background-color: #800040;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    text-align: left;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li.list-item {
+    background-color: #444;
+    color: white;
+    margin: 5px 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+li.list-item button.btn-eliminar {
+    background-color: #ff4d4d;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+li.list-item button.btn-eliminar:hover {
+    background-color: #ff1a1a;
+}
+
+div.usuario,
+div.objeto {
+    background-color: #333;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    text-align: left;
+    color: #fff;
+}
+
+div.usuario p,
+div.objeto p {
+    margin: 5px 0;
+}
+
+div.usuario a {
+    color: #61dafb;
+    text-decoration: none;
+}
+
+div.usuario a:hover {
+    text-decoration: underline;
+}
